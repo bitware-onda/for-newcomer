@@ -20,10 +20,10 @@ def take_order(menus, order_number):
     return order_number-1
 
 print("ご注文を番号でどうぞ。")
-order1 = take_order(DRINKS, 2)
+drink_order = take_order(DRINKS, 2)
 print("フードメニューはいかがですか?")
-order2 = take_order(FOODS, 1)
+food_order = take_order(FOODS, 1)
 
-total = int(DRINKS[order1]["price"]) + int(FOODS[order2]["price"])
+total = int(DRINKS[drink_order]["price"]) + int(FOODS[food_order]["price"])
 
 print(f"お会計は{total}円になります。ありがとうございました！")
