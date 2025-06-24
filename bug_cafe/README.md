@@ -11,9 +11,9 @@ main.pyを実行した結果、ターミナルに下記期待結果が出力さ�
 1. for-newcomerリポジトリをfork
 2. forkしたリポジトリをclone
 3. cd コマンドで bug-cafe 配下に移動
-   1. 例：$ cd C:\work\bug_cafe
+   1. 例：`$ cd C:\work\bug_cafe`
 4. main.py実行
-   1. $ main.py
+   1. `$ main.py`
 
 ## 期待結果
 
