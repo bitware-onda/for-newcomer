@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vueデバッグ練習</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>{{ message }}</h1>
+
+    <input v-model="inputMessage" placeholder="メッセージを入力" />
+
+    <button @click="updateMessage">更新</button>
+
+    <custom-button label="クリック"></custom-button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
