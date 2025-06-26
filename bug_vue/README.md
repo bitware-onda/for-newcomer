@@ -21,5 +21,5 @@ PRを作成したら、PRのURLを共有してください。
 
 ## 期待結果
 
-ウィンドウの上部にブラウザ標準のダイアログで
+ウィンドウの上部にブラウザ標準のダイアログで以下が表示されること
 ![image](https://github.com/user-attachments/assets/66013dc0-5d2d-4084-9d07-ff7a4efe98e4)
