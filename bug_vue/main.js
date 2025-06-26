@@ -2,7 +2,7 @@ const CustomButton = {
     props: {
         label: String
     },
-    template: `<button @click="clickButton">{{ label; }}</button>`,
+    template: `<button @click="clickButton">{{ label }}</button>`,
     methods: {
         clickButton() {
             alert("カスタムボタンがクリックされました！");
@@ -18,7 +18,8 @@ new Vue({
     },
     methods: {
         updateMessage() {
-            message = inputMessage;
+            this.message = this.inputMessage
+            alert("カスタムボタンがクリックされました！");
         }
     }
 });
