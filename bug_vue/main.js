@@ -1,4 +1,4 @@
-const CustomButton = {
+Vue.component('customButton',{
     props: {
         label: String
     },
@@ -8,7 +8,7 @@ const CustomButton = {
             alert("カスタムボタンがクリックされました！");
         }
     }
-};
+});
 
 new Vue({
     el: '#app',
@@ -19,7 +19,6 @@ new Vue({
     methods: {
         updateMessage() {
             this.message = this.inputMessage
-            alert("カスタムボタンがクリックされました！");
         }
     }
 });
